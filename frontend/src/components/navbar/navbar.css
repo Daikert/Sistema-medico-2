@@ -25,7 +25,7 @@
 }
 
 /* Brand / Logotipo */
-.navbar-brand {
+.navbar-brand, .menu__navbar-brand {
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -218,4 +218,9 @@
     width: 100%;
     padding: 0.75rem 1rem;
   }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand {display: none;}
+  .menu__navbar-brand {padding: .3em; margin-top: .3em;}
 }

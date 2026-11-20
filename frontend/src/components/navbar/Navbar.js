@@ -127,7 +127,19 @@ export class Navbar {
 
           <!-- Menú Principal -->
           <nav>
+            
             <ul class="navbar-nav ${this.mobileOpen ? 'is-open' : ''}" id="navbar-links-list">
+              <li>
+                <a href="#/home" class="menu__navbar-brand">
+                  <div class="navbar-logo-icon">
+                    <span>+</span>
+                  </div>
+                  <div class="navbar-brand-text">
+                    <span class="navbar-brand-name">ASO HORIZONTE</span>
+                    <span class="navbar-brand-tagline">Sistema PRM Clínico</span>
+                  </div>
+                </a>
+              </li>
               ${navLinksHtml}
             </ul>
           </nav>

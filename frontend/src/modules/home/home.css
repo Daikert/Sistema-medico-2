@@ -275,3 +275,8 @@
   margin: 0 auto 1rem auto;
   color: var(--slate-300);
 }
+
+
+@media (max-width: 1024px) {
+  .ingress-card {position:static;}
+}
